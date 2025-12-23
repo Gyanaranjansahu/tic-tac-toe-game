@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: rgb(8, 247, 131);
+    background-image: url(/Users/dibya/Downloads/image.jpg);
+    background-size: cover;
+}
+#item{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 8px;
+    border: none;
+    font-size:50px;
+    font-family: cursive;
+    color: darkblue;
+    background-color:peachpuff;
+
+}
+h1:hover{
+    background-color: rgb(215, 2, 70);
+    transition: all 2s linear 1s;
+}
+#msg{
+    color: whitesmoke;
+    font-size: 30px;
+    background-color:rgb(6, 65, 49) ;
+}
+.msg-container{
+    height: 50px;
+    border-radius: 20px;
+}
+.hide{
+    display:none ;
+}
+#newbtn{
+    height: 15px;
+    width: 50px;
+    background-color: black;
+    color: aliceblue;
+}
