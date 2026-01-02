@@ -40,7 +40,7 @@ let enable=()=>{
     }
 }
 
-let win=()=>{
+let win=(winner)=>{
     container.classList.remove("hide");
     disable();
 }
